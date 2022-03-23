@@ -14,7 +14,7 @@
 </template>
 <script lang="ts" setup>
 import { defineProps, withDefaults } from "vue";
-const props = withDefaults(
+withDefaults(
   defineProps<{
     title: string;
     desData: any[];

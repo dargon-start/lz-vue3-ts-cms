@@ -19,7 +19,6 @@ import { ref, defineEmits, computed } from "vue";
 //引入组件
 import userInfo from "./user_info.vue";
 import breadCrumb from "@/base_ui/breadCrumb/src/breadCrumb.vue";
-import { IcrumbType } from "@/base_ui/breadCrumb/type";
 import { useStore } from "@/store";
 import { urlMapCrumb } from "@/utils/menuMapRoutes";
 import { useRoute } from "vue-router";

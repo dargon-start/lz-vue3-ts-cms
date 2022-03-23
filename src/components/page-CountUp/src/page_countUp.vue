@@ -20,7 +20,7 @@
 <script lang="ts" setup>
 import { Warning } from "@element-plus/icons-vue";
 import lzCountUp from "@/base_ui/count-up";
-import { defineProps, withDefaults, watch } from "vue";
+import { defineProps, withDefaults } from "vue";
 const props = withDefaults(
   defineProps<{
     Data: any;

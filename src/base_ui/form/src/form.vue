@@ -60,7 +60,7 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { defineProps, PropType, computed, defineEmits, watch, ref } from "vue";
+import { defineProps, PropType, defineEmits } from "vue";
 import { IFormItem } from "@/base_ui/form/type/type";
 const props = defineProps({
   modelValue: {

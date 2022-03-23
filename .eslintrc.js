@@ -25,6 +25,7 @@ module.exports = {
     "vue/no-mutating-props": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/ban-types": "off",
-    "vue/no-parsing-error": "off"
+    "vue/no-parsing-error": "off",
+    "@typescript-eslint/no-unused-vars": "off"
   }
 };
